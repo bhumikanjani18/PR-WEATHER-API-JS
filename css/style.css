@@ -1,0 +1,10 @@
+body {
+    background: url(../background-weather.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top;
+    object-fit: cover;
+}
+.card{
+    background-color: #6f77c031 !important;
+}

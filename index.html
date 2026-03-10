@@ -1,0 +1,51 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Weather-API</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+    <!-- Bootstrap CSS v5.2.1 -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous" />
+
+    <link rel="stylesheet" href="./css/style.css" type="text/css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-4">
+                <div class="card mt-5 shadow p-4">
+                    <h3 class="mb-3 text-white text-center fst-italic">Weather App</h3>
+                    <div class="input-group mb-3">
+                        <input type="text" id="cityName" class="form-control" placeholder="Enter city">
+                        <button class="btn btn-primary" id="button">Search</button>
+                    </div>
+                    <img id="weatherIcon" class="weather-icon mx-auto">
+                    <h4 id="city" class="text-white text-center"></h4>
+                    <h2 id="temp" class="text-white text-center"></h2>
+                    <p id="description" class="text-white text-center text-capitalize"></p>
+                    <div class="d-flex justify-content-between">
+                        <p class="text-white">💨 Wind: <span id="speed"></span></p>
+                        <p class="text-white">💧 Humidity: <span id="humidity"></span></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
